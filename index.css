@@ -1,0 +1,57 @@
+body {
+  background-color: teal;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+td,
+th {
+  border: 2px solid indigo;
+}
+th {
+  background-color: steelblue;
+  height: 50px;
+  font-size: 30px;
+}
+
+.tekstas {
+  max-width: 100px;
+  vertical-align: top;
+  text-align: start;
+  color: white;
+  font-weight: 500;
+}
+
+.mazas {
+  font-size: small;
+}
+
+td p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+td h3 {
+  margin-right: 5px;
+  margin-left: 10px;
+  color: white;
+}
+td h4 {
+  margin-left: 10px;
+  color: black;
+}
+
+td li {
+  padding-right: 5px;
+}
+
+.nuorodos {
+  font-size: 21px;
+}
+
+.nuorodos > td > a {
+  color: blue;
+  text-decoration: none;
+}
